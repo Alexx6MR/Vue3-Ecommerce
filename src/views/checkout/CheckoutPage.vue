@@ -40,8 +40,8 @@ import { useStore } from 'vuex'
 import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
 import { ChevronRightIcon } from '@heroicons/vue/solid'
 import Checkout from './components/CheckOutView.vue';
-import Ordercomplete from './components/ordercomplete.vue';
-import Shoppingcart from './components/shoppingcart.vue';
+import Ordercomplete from './components/CheckoutOrderDone.vue';
+import Shoppingcart from './components/CheckoutShoppingCart.vue';
 
 export default defineComponent({
   components: { TabGroup, TabList, Tab, TabPanels, TabPanel, Checkout,Ordercomplete, Shoppingcart, ChevronRightIcon,},
